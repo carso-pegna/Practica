@@ -1,8 +1,8 @@
 class Celular {
-    constructor(color, peso, tamaño, rdc, ram) {
+    constructor(color, peso, tamano, rdc, ram) {
     this.color = color;
     this.peso = peso;
-    this.tamaño = tamaño;
+    this.tamano = tamano;
     this.resolucionDeCamara = rdc;
     this.memoriaRam = ram;
     this.encendido = false;
@@ -34,7 +34,7 @@ class Celular {
         return`
         Color: <b>${this.color}</b></br>
         Peso: <b>${this.peso}</b></br>
-        Tamaño: <b>${this.tamaño}</b></br>
+        Tamaño: <b>${this.tamano}</b></br>
         Resolucion de Video: <b>${this.resolucionDeCamara}</b></br>
         Memoria Ram: <b>${this.memoriaRam}</b></br>
         `;
@@ -44,8 +44,8 @@ class Celular {
 
 
 class CelularAltaGama extends Celular {
-    constructor(color, peso, tamaño, rdc, ram, rdce) {
-    super(color, peso, tamaño, rdc, ram);
+    constructor(color, peso, tamano, rdc, ram, rdce) {
+    super(color, peso, tamano, rdc, ram);
     this.resolucionDeCamaraExtra = rdce;
     }
 grabarVideoLento() {
