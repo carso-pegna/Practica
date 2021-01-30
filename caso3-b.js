@@ -57,6 +57,7 @@ reconocimientoFacial() {
 infoAltaGama() {
     return this.mobileInfo() + `Resolución de Cámara Extra: ${this.resolucionDeCamaraExtra}`;
 }
+}
 
 
 /*
